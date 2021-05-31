@@ -1,0 +1,9 @@
+name: "Sync To S3"
+description: "Sync a GitHub Repository to an AWS S3 bucket"
+author: brianchilders 
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
