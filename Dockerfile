@@ -1,4 +1,4 @@
-ROM python:3.8-alpine
+FROM python:3.8-alpine
 
 LABEL "com.github.actions.name"="Sync To S3"
 LABEL "com.github.actions.description"="Sync github repository to an AWS S3 bucket"
